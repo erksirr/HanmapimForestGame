@@ -353,7 +353,7 @@ void Game::run()
 		else if (this->Gamestate == 2)
 		{
 			this->renderLeaderBoard();
-			//this->renderRanking();
+			
 			this->updateLeaderboard();
 		}
 		else if (this->Gamestate == 3)
